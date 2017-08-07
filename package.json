@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/isnil",
   "version": "1.0.0",
-  "description": "",
+  "description": "Determines if a value is not a value",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,6 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/istype": "^1.0.5"
   }
 }

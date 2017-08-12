@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined, no-magic-numbers */
 import {test} from "tap"
 
-import isNil from "./source.js"
+import isIterable from "./source"
 
 test(({same, end}) => {
   same(

@@ -1,85 +1,85 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import isNil from "./index"
+import isNil from "./index";
 
 test(({same, end}) => {
   same(
     isNil(null),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil(undefined),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil(0),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil([]),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil({}),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil(false),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil(true),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil("true"),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     isNil(""),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});

@@ -50,9 +50,6 @@
     "nyc": "13.3.0",
     "tap": "12.6.1"
   },
-  "dependencies": {
-    "@unction/istype": "6.6.0"
-  },
   "nyc": {
     "require": [
       "@babel/register"

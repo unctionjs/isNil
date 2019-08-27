@@ -1,7 +1,7 @@
 /* eslint-disable no-undefined, no-magic-numbers */
 import {test} from "tap";
 
-import isNil from "./index";
+import isNil from "./";
 
 test(({same, end}) => {
   same(

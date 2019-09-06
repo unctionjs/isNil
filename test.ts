@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import isNil from "./index.ts";
+import isNil from "./index";
 
 test(() => {
   expect(isNil(null)).toEqual(true);

@@ -1,6 +1,6 @@
 {
   "name": "@unction/isnil",
-  "version": "6.6.1",
+  "version": "6.6.2",
   "description": "Determines if a value is not a value",
   "keywords": [
     "unction",
